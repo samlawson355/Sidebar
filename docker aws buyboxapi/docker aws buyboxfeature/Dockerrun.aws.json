@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "kytrascript/buyboxfeature:feature"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "3380"
+    }
+  ]
+}

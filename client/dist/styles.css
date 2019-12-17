@@ -1,0 +1,409 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    background-color: lavenderblush;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    background-color: aqua;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: forestgreen;
+}
+
+.images {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: orangered;
+}
+
+.product-info {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: gold;
+}
+
+.hidden-div {
+    display: none !important;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+a, a:active, a:link, a:visited {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+}
+
+#kytrabuybox {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    background-color: white;
+}
+
+.buybox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 10px 10px 10px;
+    border: solid 1px #dadada;
+    border-radius: 4px;
+    height: auto;
+    width: 100%;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    background-color: mediumpurple;
+}
+
+.similar-products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    background-color: lawngreen;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+}
+
+.red-K{
+    color: red;
+}
+
+.green-K{
+    color: green;
+}
+
+#promo-img{
+    width: 50px;
+    height: 35px;
+    position: relative;
+    background-image: url('https://gammazon.s3.us-east-2.amazonaws.com/Gammazon/kytra/promo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#promo-popover{
+    display: flex;
+    flex-direction: column;
+    right: 70px;
+    bottom: -190px;
+    height: 420px;
+    width: 450px;
+    position: absolute;
+    background-color: white;
+    border: solid 1px #dadada;
+    border-radius: 6px;
+    z-index: 399;
+}
+
+.promo-list ul {
+    margin-top: 2px;
+    line-height: 1.3em;
+    font-size: 12px;
+}
+
+.promo-popover-top{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: absolute;
+    top:-1px;
+    left:-1px;
+    width: 452px;
+    height: 36px;
+    background-color: #e7e9ec;
+    border-bottom: solid 1px #cfd2d9;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: inset 0 2px 8px #dadada;
+    margin-bottom: 5px;
+}
+
+.promo-popover-info{
+    position: relative;
+    top: 34px;
+    padding: 20px;
+}
+
+.promo-popover-info h1 {
+    margin: 0;
+}
+
+.promo-pointer{
+    position: absolute;
+    height: 24px;
+    width: 16px;
+    right: -15px;
+    bottom: 190px;
+    background-image: url('https://gammazon.s3.us-east-2.amazonaws.com/Gammazon/kytra/poparrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#promo-close-img{
+    width: 8px;
+    height: 8px;
+    background-image: url('https://gammazon.s3.us-east-2.amazonaws.com/Gammazon/kytra/cancel.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.promo-close-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20px;
+    width: 20px;
+    border: solid 1px #959595;
+    border-radius: 3px;
+    margin-right: 12px;
+}
+
+.promo-close-btn:hover{
+    cursor: pointer;
+}
+
+.purchase-details-K{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-details{
+    width: 100%;
+}
+
+#price-K, #stock-K, #other-price{
+    font-size: 17px;
+}
+
+.sold-by-K{
+    width: 100%;
+}
+
+.paid-promo-K{
+    padding: 15px;
+    border: solid 1px #dadada;
+    border-radius: 4px;
+    line-height: 1.35em;
+}
+
+.deliver-to{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    padding: 10px 0 6px 0;
+    border-top: solid 1px #dadada;
+    border-bottom: solid 1px #dadada;
+}
+
+.btn {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 13px;
+    border: solid 1px #9c7e31;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+#btn-add-cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+}
+
+#btn-buy-now{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom,#f6c88f,#ed9220);
+}
+
+#btn-wishlist{
+    background-color: #e7e9ec;
+    border-color: #979aa1;
+    padding: 0 0 0 15px;
+    box-shadow: inset 0 1px 2px white;
+    text-align: left;
+}
+
+#deliver-map{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    background-image: url('https://gammazon.s3.us-east-2.amazonaws.com/Gammazon/kytra/maps.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.other-sellers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 10px 10px 10px;
+    font-size: 13px;
+    line-height: 19px;
+    border: solid 1px #dadada;
+    border-radius: 1px;
+    height: auto;
+    width: 100%;
+}
+
+#other-label {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 10px);
+    align-items: center;
+    padding: 5px;
+    border-bottom: solid 1px #dadada;
+}
+
+.other-price-row {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 8px 0 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seller-K{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: solid 1px #dadada;
+}
+
+.seller-K:last-child{
+    border-bottom: none;
+}
+
+#other-add-cart{
+    width: 78px;
+    height: 20px;
+    border: solid 1px #9c7e31;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 11px;
+    background-color: #f0c14b;
+    box-shadow: inset 0 2px 8px white,
+    inset 0 -6px 12px #cda93f;
+}
+
+.other-product-details{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 1.3em;
+    padding: 1px 6px 1px 6px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+.social-media-icon{
+    height: 17px;
+    width: 18px;
+    margin-left: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#cart-icon {
+    display: block;
+    height: 24px;
+    width: 24px;
+    background-image: url('https://gammazon.s3.us-east-2.amazonaws.com/Gammazon/kytra/cart.png');
+    background-size: contain;
+}
+
+#buynow-icon{
+    display: block;
+    height: 24px;
+    width: 24px;
+    background-image: url('https://gammazon.s3.us-east-2.amazonaws.com/Gammazon/kytra/buynow.png');
+    background-size: contain;
+}
+
+#quantity-selector{
+    padding-left: 6px;
+    padding-bottom: 1px;
+    margin-left: 4px;
+    height: 20px;
+    width: 48px;
+    outline: none;
+    background: url('https://gammazon.s3.us-east-2.amazonaws.com/Gammazon/kytra/chevron.png') no-repeat right;
+}
+
+#mail-share{
+    background-image: url('https://gammazon.s3.us-east-2.amazonaws.com/Gammazon/kytra/envelope.png');
+}
+
+#facebook-share{
+    background-image: url('https://gammazon.s3.us-east-2.amazonaws.com/Gammazon/kytra/facebook.png');
+}
+
+#twitter-share{
+    background-image: url('https://gammazon.s3.us-east-2.amazonaws.com/Gammazon/kytra/twitter.png');
+}
+
+#pinterest-share{
+    background-image: url('https://gammazon.s3.us-east-2.amazonaws.com/Gammazon/kytra/pinterest.png');
+}
